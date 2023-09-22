@@ -1,5 +1,5 @@
-<div>
-    <div class="card">
+<div style="clear:both">
+    <div class="footer">
     <div class="card-header">Footer</div>
     <div class="card-body">
         <blockquote class="blockquote mb-0">

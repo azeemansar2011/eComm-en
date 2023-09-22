@@ -19,6 +19,9 @@
     {{View::make('footer')}}
 </body>
 <style>
+   .footer{
+    margin:10px;
+   }
     .custom-login{
         height: 550px;
         padding-top: 100px;
@@ -34,9 +37,16 @@
     .slider-text{
         background-color:#35443585;
     }
+    .tending-image{
+        height:100px;
+    }
+    .trending-item{
+        float:left;
+        width:33.3%;
+    }
+    .trending-wapper{
+        margin:30px;
+    }
 </style>
-<JavaScrip>
-    const myCarousel = document.querySelector('#myCarousel');
-    const carousel = new mdb.Carousel(myCarousel);
-</JavaScrip>
+
 </html>
