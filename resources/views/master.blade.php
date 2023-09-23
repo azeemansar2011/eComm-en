@@ -50,6 +50,11 @@
     .detail-img{
         height:300px;
     }
+    .cart-list-divider{
+        border-bottom : 1px solid #B5B5B4;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
 </style>
 
 </html>
