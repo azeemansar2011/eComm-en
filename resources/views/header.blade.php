@@ -19,7 +19,7 @@ if(Session::has('user'))
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Orders</a>
+          <a class="nav-link active" aria-current="page" href="myorders">Orders</a>
         </li>
         <li>
             <form class="d-flex" role="search">
