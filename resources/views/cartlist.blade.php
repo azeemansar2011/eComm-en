@@ -19,12 +19,13 @@
                         <div class="trending-item">
                             <div class="">
                                 <h4>{{$item->name}}</h4>
+                                <h5>Rs.{{$item->price}}</h5>
                                 <h6>{{$item->description}}</h6>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-2">
-                        <button class="btn btn-warning">Remove from Cart</button>
+                        <a href="/removecart/{{$item->cart_id}}"class="btn btn-warning">Remove from Cart</a>
                     </div>
                     
                 </div>
